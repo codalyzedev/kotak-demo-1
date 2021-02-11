@@ -1,0 +1,21 @@
+<ion-content [fullscreen]="true">
+
+  <div id="card-container" #cardContainer>
+    <ion-card>
+      <app-custom-image backgroundImageSrc="assets/Space.png" overlayImageSrc="assets/Dog.png" (click)="onCardClick()">
+      </app-custom-image>
+      <div id="card-bottom-wrapper">
+        <div id="card-bottom">
+          <h2>Canis infinitum</h2>
+          <div id="icon-animate-wrapper">
+            <ng-lottie [options]="options"> </ng-lottie>
+            <ion-icon [src]="iconPath" (click)="onIconClick()"></ion-icon>
+          </div>
+        </div>
+        <div id="card-bottom-text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>

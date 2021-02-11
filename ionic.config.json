@@ -1,0 +1,8 @@
+{
+  "name": "kotak_demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "799b4e5f"
+}

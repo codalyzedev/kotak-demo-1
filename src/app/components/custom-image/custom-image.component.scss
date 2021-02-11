@@ -1,0 +1,23 @@
+#images-container {
+  position: relative;
+  height: 100%;
+}
+
+#background{
+  height: 100%;
+  img {
+    height: 100%;
+    border: 0;
+    resize: auto;
+  }
+}
+
+#overlay {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  transform: scale3d(2.5, 2.5, 2.5) translateY(-70px) translateX(10px);
+  img {
+    transform: perspective(800px);
+  }
+}
